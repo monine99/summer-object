@@ -1,0 +1,29 @@
+# Qt 构建产物
+build/
+*.o
+*.obj
+*.exe
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Qt Creator 用户配置
+*.pro.user
+*.pro.user.*
+
+# Makefile（自动生成）
+Makefile
+Makefile.Debug
+Makefile.Release
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# 编译输出
+debug/
+release/
